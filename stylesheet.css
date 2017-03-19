@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0; 
+	box-sizing: border-box; 
+  font-family: helvetica;
+  overflow-x: hidden;
+  text-align: center;  }
+body {
+  background-color: #555;
+  padding: 100px 0;
+  width: 98%;
+  margin: 0 1%; }
+
+.section {
+  padding: 25px 0; }
+.eventInfo {
+  width: 100%;  }
+.eventInfo .save {
+  width: 100%;
+  float: left;
+  color: #fff;
+  font-family: Cookie;
+  font-size: 11em; }
+.eventInfo .timeAndDate { 
+  width: 100%;
+  float: left;
+  margin: 30px auto; }
+.eventInfo .date {
+  width: 100%;text-transform: uppercase;
+  font-size: 7em; }
+.eventInfo .time {
+  width: 100%; 
+  margin: 0;
+  font-size: 7em; }
+.hood {
+  width: 100%; }
+.hood .perks {
+  width: 100%;
+  float: left;  } 
+.perks li {
+  font-size: 2em;
+  line-height: 2em;  }
+.hood .event { 
+  font-size: 3em;
+  width: 100%; 
+  color: #fff;  } 
+
+.event span {
+  text-transform: uppercase;
+  font-size: 0.955em; }
+
+.rsvp {
+  width: 100%; }
+.rsvp img {
+  float: left;
+  width: 100%; }
+.rsvp form {
+  width: 100%;  }
+.rsvp form p {
+  font-size: 6em;
+  color: #fff;   }
+form input {
+  width: 40%;
+  padding: 15px; 
+  outline: none;
+  font-size: 1em; 
+  text-align: left;
+  border-radius: 10px; }
+
+form input[id="name"], form input[id="numberofpeople"] {
+  margin: 30px 2.5%;   }
+form input[id="email"], form input[id="food"] {
+  margin: 30px 2.5%;  }
+form input[type="submit"] {
+  text-align: center;
+  font-size: 1.4em;
+  width: 20%;
+  margin: 20px 40%;
+  cursor: pointer;
+  color: #fff; 
+  background-color: #777; }
+form input[type="submit"]:hover, form input[type="submit"]:active {
+  background-color: #fff;
+  border: 5px solid #555;
+  color: #000;
+  box-shadow: 4px 6px #444; }
+
+ /****** TABLET / DESKTOP VIEW ******/
+@media (min-width:961px)  {
+.eventInfo  .timeAndDate {
+  width: 50%;  }
+.eventInfo .date {
+  width: 53%; 
+  float: left;
+  margin: 0 1%; }
+.eventInfo .time {
+  width: 45%;
+  font-size: 7em; }
+.eventInfo .save {
+  width: 50%; }
+.hood .perks {
+  width: 35%;   } 
+.perks li {
+  font-size: 2.3em;
+  line-height: 2em;
+  text-align: right; }
+.hood .event { 
+  font-size: 3.4em; 
+  width: 65%;  } 
+.rsvp img { 
+  width: 45%; }
+.rsvp form {
+  width: 55%;  }
+  
+}
